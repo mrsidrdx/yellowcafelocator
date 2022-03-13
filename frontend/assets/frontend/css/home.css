@@ -1,0 +1,123 @@
+body {
+    background: #DDD101;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #E07C24;
+    margin-top: 2vh;
+    font-weight: bold;
+}
+
+.logout-button {
+    font-size: 6vw;
+    background: -webkit-linear-gradient(#E07C24, #F7CD2E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #E07C24;
+}
+
+.map-box {
+    height: 64vh;
+    background: #fff;
+    border-radius: 0.4vw;
+    border: solid 1vw #E07C24;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    margin-top: 5vh;
+}
+
+.user-locations {
+    height: 64vh;
+    background: #fff;
+    border-radius: 0.4vw;
+    border: solid 1vw #E07C24;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    margin-top: 5vh;
+    overflow-y: auto;
+}
+
+.find-button {
+    color: #fff;
+    border: none;
+    border-radius: 0.6vw;
+    padding: 1.5vw;
+    margin-top: 1vh;
+    font-size: 1.2vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#id_find_button {
+    padding: 1.5vh 3.5vw;
+    background-color: #E07C24;
+    border-radius: 2vw;
+    color: white;
+}
+
+/* Styling for an info pane that slides out from the left. 
+Hidden by default. */
+#panel {
+    width: null;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: all .2s ease-out;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+  
+.open {
+    width: 22vw;
+}
+  
+/* Styling for place details */
+.hero {
+    width: 100%;
+    height: auto;
+    max-height: 166px;
+    display: block;
+}
+
+.hero-img-wrap {
+    position: relative;
+}
+
+.close-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #E07C24;
+    font-size: 2.0vw;
+}
+
+.location-card {
+    background: #FEFCFF;
+    border-radius: 0.2vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.36);
+    padding: 0.5vw;
+    margin-top: 1.4vh;
+    font-size: 0.64vw;
+}
+  
+.place, p {
+    font-family: 'open sans', arial, sans-serif;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+  
+.details {
+    color: darkslategrey;
+}
+  
+a {
+    text-decoration: none;
+    color: cadetblue;
+}
